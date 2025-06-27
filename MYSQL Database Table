@@ -1,0 +1,14 @@
+#MYSQL Database Table
+CREATE DATABASE facial_diagnosis;
+USE facial_diagnosis;
+
+CREATE TABLE ureg (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(100),
+    email VARCHAR(100),
+    pass VARCHAR(100),
+    dob DATE,
+    addr TEXT,
+    ph VARCHAR(15),
+    gender VARCHAR(10)
+);
